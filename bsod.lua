@@ -24,6 +24,7 @@ if (not UserSettings().GameSettings:InFullScreen()) then
     game:service'GuiService':ToggleFullscreen()    
 end
 
+game:service'UserInputService'.MouseIconEnabled = false
 sound:Play()
 image.Visible = true
 
